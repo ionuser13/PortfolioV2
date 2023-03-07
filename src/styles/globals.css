@@ -5,7 +5,7 @@
 .root, #root, #docs-root {
     --background-color: #ecf0f3;
     --body-text-color: #1f2937;
-    --remarking-color: #5651e5
+    --remarking-color: #;
 }
 
 @layer base {
