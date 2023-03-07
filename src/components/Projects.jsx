@@ -1,7 +1,9 @@
-import Image from 'next/image';
 import React from 'react'
+import Image from 'next/image';
 import Link from 'next/link';
-import deltaImg from "@public/assets/projects/deltaproject.png"
+import deltaImg from "@public/assets/projects/deltaproject.png";
+import ecommerceImg from "@public/assets/projects/ecommerce.png";
+import galleryImg from "@public/assets/projects/songGallery.png"
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -12,7 +14,9 @@ const Projects = () => {
             <h2 className='py-4'>What I've built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
 
-                <ProjectItem title={"Delta Project"} technology={"HTML, CSS and JS"} backgroundImg={deltaImg} projectUrl={"/property"} />
+                <ProjectItem title={"Delta Project"} technology={"HTML, CSS and JS"} backgroundImg={deltaImg} projectUrl={"/delta-project"} />
+                <ProjectItem title={"Yard Sale"} technology={"HTML, CSS and JS"} backgroundImg={galleryImg} projectUrl={"/song-gallery"} />
+                <ProjectItem title={"Yard Sale"} technology={"Next JS"} backgroundImg={ecommerceImg} projectUrl={"/yard-sale"} />
 
             </div>
         </div>
