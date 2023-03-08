@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import deltaImg from "@public/assets/projects/ecommerce.png";
+import yardImg from "@public/assets/projects/ecommerce.png";
 import {RiRadioButtonFill} from "react-icons/ri"
 import Link from 'next/link';
 
@@ -9,7 +9,7 @@ const YardSale = () => {
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10'  />
-        <Image className='absolute' fill={true} style={{objectFit: "cover"}} src={deltaImg} alt={"/"} />
+        <Image className='absolute' fill={true} style={{objectFit: "cover"}} src={yardImg} alt={"/"} />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-[10] text-white'>
           <h2 className='py-2 '>Yard Sale</h2>
           <h3>Next JS | CSS3 | SASS</h3>
@@ -21,7 +21,7 @@ const YardSale = () => {
           <h2>Overview</h2>
           <p>This is an e-commerce platform built with Next.js, which is a framework built on top of React. The project was migrated from a previous version built with React, and now includes new functionality and optimization features.</p>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-4'>Demo</button>
+          <button className='px-8 py-2 mt-4'>Code</button>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>
