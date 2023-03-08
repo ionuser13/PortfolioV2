@@ -7,6 +7,9 @@
     --body-text-color: #1f2937;
     --remarking-color: #;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 @layer base {
     body {
