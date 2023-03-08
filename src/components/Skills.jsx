@@ -4,7 +4,7 @@ import IndividualSkill from './IndividualSkill';
 
 const Skills = () => {
   return (
-    <div className='w-full lg:h-screen p-2'>
+    <div className='w-full lg:h-screen p-2' id='skills'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='uppercase text-xl tracking-widest text-remarking-color'>Skills</p>
             <h2 className='py-4'>What can I do?</h2>

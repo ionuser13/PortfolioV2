@@ -25,22 +25,24 @@ const Navbar = () => {
   return (
       <div className={shadow ? `fixed w-full h-20 shadow-xl z-[100] bg-background-color`: `fixed w-full h-20 z-[100] bg-background-color`}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-          <Image src="/../public/assets/navLogo.png" alt="/" width="80" height="50" />
+          <Link href={"/#home"}>
+            <Image src="/../public/assets/navLogo.png" alt="/" width="80" height="50" />
+          </Link>
           <div>
             <ul className='hidden md:flex'>
-              <Link href={"/"}>
+              <Link href={"/#home"}>
                 <li className='ml-10 text-sm uppercase hover:underline '>Home</li>
               </Link>
-              <Link href={"/"}>
+              <Link href={"/#about"}>
                 <li className='ml-10 text-sm uppercase hover:underline'>About</li>
               </Link>
-              <Link href={"/"}>
+              <Link href={"/#skills"}>
                 <li className='ml-10 text-sm uppercase hover:underline'>Skills</li>
               </Link>
-              <Link href={"/"}>
+              <Link href={"/#projects"}>
                 <li className='ml-10 text-sm uppercase hover:underline'>Projects</li>
               </Link>
-              <Link href={"/"}>
+              <Link href={"/#contact"}>
                 <li className='ml-10 text-sm uppercase hover:underline'>Contact</li>
               </Link>
             </ul>
