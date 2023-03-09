@@ -19,7 +19,7 @@ const DeltaProject = () => {
         <div className='col-span-4'>
           <p className='pb-2'>Project</p>
           <h2>Overview</h2>
-          <p className='py-4'>This project is a landing page designed for a web development agency that offers multiple services such as web development, mobile app development, and content writing. The page was built with HTML, CSS and vanilla JavaScript, using an original design found on Dribbble. This project has a clear structure and easy navigation, which allows users to quickly access information about the services offered. Each section of the page includes specific details about the services, as well as examples of the agency's previous work.</p>
+          <p className='py-4'>This project is a landing page designed for a web development agency that offers multiple services such as web development, mobile app development, and content writing. The page was built with HTML, CSS and vanilla JavaScript, using an original design found on Dribbble. This project has a clear structure and easy navigation, which allows users to quickly access information about the services offered. Each section of the page includes specific details about the services, as well as examples of the agency&apos;s previous work.</p>
           <Link href={"https://ionuser13.github.io/Delta-Project/"} target={"_blank"}>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>

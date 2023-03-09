@@ -9,7 +9,7 @@ const DarkThemeButton = () => {
         if(window.matchMedia("(prefers-color-scheme: dark").matches) {
             setTheme("dark")
         }    
-    })
+    }, [])
 
    useEffect(() => {
     if(theme === "dark") {

@@ -19,7 +19,7 @@ const SongGallery = () => {
         <div className='col-span-4'>
           <p className='pb-2'>Project</p>
           <h2>Overview</h2>
-          <p className='py-4'>This project started as one of my first HTML projects, featuring a gallery of songs from my playlist. Originally, it was manually created with each item linking to its own page. However, after taking a course on asynchronism and connecting to APIs, I used a template to automatically populate the gallery with data from the API, and added regular expressions and template literals to redirect users to the song's Genius page. This project utilized HTML, CSS, and Vanilla JS.</p>
+          <p className='py-4'>This project started as one of my first HTML projects, featuring a gallery of songs from my playlist. Originally, it was manually created with each item linking to its own page. However, after taking a course on asynchronism and connecting to APIs, I used a template to automatically populate the gallery with data from the API, and added regular expressions and template literals to redirect users to the song&apos;s Genius page. This project utilized HTML, CSS, and Vanilla JS.</p>
           <Link href={"https://ionuser13.github.io/Music-project/"} target={"_blank"}>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
