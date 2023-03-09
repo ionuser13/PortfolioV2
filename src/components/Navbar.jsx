@@ -5,6 +5,7 @@ import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from "react-icons/ai";
 import {FaLinkedinIn, FaGithub} from "react-icons/fa";
 import {BsPersonLinesFill} from "react-icons/bs";
 import { useRouter } from 'next/router';
+import DarkThemeButton from './DarkThemeButton';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -44,6 +45,7 @@ const Navbar = () => {
           <Link href={"/#home"}>
             <Image src="/../public/assets/John.png" alt="/" width="80" height="50" />
           </Link>
+          <DarkThemeButton />
           <div>
             <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
               <Link href={"/#home"}>
