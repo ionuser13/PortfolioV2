@@ -20,7 +20,7 @@ const YardSale = () => {
           <p className='pb-2'>Project</p>
           <h2>Overview</h2>
           <p className='py-4'>This is an e-commerce platform built with Next.js, which is a framework built on top of React. The project was migrated from a previous version built with React, and now includes new functionality and optimization features.</p>
-          <Link href={"https://next-shop-xc5n-6ppsmle1u-ionuser13.vercel.app/"} target={"_blank"}>
+          <Link href={"https://next-shop-7l9y.vercel.app/main"} target={"_blank"}>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
           <Link href={"https://github.com/ionuser13/next-shop"} target={"_blank"}>
