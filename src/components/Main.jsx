@@ -7,7 +7,8 @@ import Link from 'next/link';
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
-        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+        <div className='main-section bg-[#8e8e8e] bg-fixed bg-cover bg-center h-full w-full absolute z-[-1] '></div>
+        <div className='backdrop-blur-xl max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
                 <p className='uppercase text-sm tracking-widest text-gray-600'>Let's build something together</p>
                 <h1 className='py-4 text-gray-700'>
