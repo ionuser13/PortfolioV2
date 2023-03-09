@@ -18,7 +18,7 @@ const DarkThemeButton = () => {
     else {
       document.documentElement.classList.remove("dark")
     }
-   }, {theme})
+   }, [theme])
 
    const handleThemeSwitch = () => {
     setTheme(theme === "dark" ? "ligth" : "dark");
