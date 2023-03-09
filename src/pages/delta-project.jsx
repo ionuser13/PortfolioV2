@@ -17,11 +17,15 @@ const DeltaProject = () => {
       </div>
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
         <div className='col-span-4'>
-          <p>Project</p>
+          <p className='pb-2'>Project</p>
           <h2>Overview</h2>
-          <p>This project is a landing page designed for a web development agency that offers multiple services such as web development, mobile app development, and content writing. The page was built with HTML, CSS and vanilla JavaScript, using an original design found on Dribbble. This project has a clear structure and easy navigation, which allows users to quickly access information about the services offered. Each section of the page includes specific details about the services, as well as examples of the agency's previous work.</p>
-          <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-4'>Code</button>
+          <p className='py-4'>This project is a landing page designed for a web development agency that offers multiple services such as web development, mobile app development, and content writing. The page was built with HTML, CSS and vanilla JavaScript, using an original design found on Dribbble. This project has a clear structure and easy navigation, which allows users to quickly access information about the services offered. Each section of the page includes specific details about the services, as well as examples of the agency's previous work.</p>
+          <Link href={"https://ionuser13.github.io/Delta-Project/"} target={"_blank"}>
+            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+          </Link>
+          <Link href={"https://github.com/ionuser13/Delta-Project"} target={"_blank"}>
+            <button className='px-8 py-2 mt-4'>Code</button>
+          </Link>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>

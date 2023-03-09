@@ -17,11 +17,15 @@ const YardSale = () => {
       </div>
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
         <div className='col-span-4'>
-          <p>Project</p>
+          <p className='pb-2'>Project</p>
           <h2>Overview</h2>
-          <p>This is an e-commerce platform built with Next.js, which is a framework built on top of React. The project was migrated from a previous version built with React, and now includes new functionality and optimization features.</p>
-          <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-4'>Code</button>
+          <p className='py-4'>This is an e-commerce platform built with Next.js, which is a framework built on top of React. The project was migrated from a previous version built with React, and now includes new functionality and optimization features.</p>
+          <Link href={"https://next-shop-xc5n-6ppsmle1u-ionuser13.vercel.app/"} target={"_blank"}>
+            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+          </Link>
+          <Link href={"https://github.com/ionuser13/next-shop"} target={"_blank"}>
+            <button className='px-8 py-2 mt-4'>Code</button>
+          </Link>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>

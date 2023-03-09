@@ -17,11 +17,15 @@ const SongGallery = () => {
       </div>
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
         <div className='col-span-4'>
-          <p>Project</p>
+          <p className='pb-2'>Project</p>
           <h2>Overview</h2>
-          <p>This project started as one of my first HTML projects, featuring a gallery of songs from my playlist. Originally, it was manually created with each item linking to its own page. However, after taking a course on asynchronism and connecting to APIs, I used a template to automatically populate the gallery with data from the API, and added regular expressions and template literals to redirect users to the song's Genius page. This project utilized HTML, CSS, and Vanilla JS.</p>
-          <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-4'>Code</button>
+          <p className='py-4'>This project started as one of my first HTML projects, featuring a gallery of songs from my playlist. Originally, it was manually created with each item linking to its own page. However, after taking a course on asynchronism and connecting to APIs, I used a template to automatically populate the gallery with data from the API, and added regular expressions and template literals to redirect users to the song's Genius page. This project utilized HTML, CSS, and Vanilla JS.</p>
+          <Link href={"https://ionuser13.github.io/Music-project/"} target={"_blank"}>
+            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+          </Link>
+          <Link href={"https://github.com/ionuser13/Music-project"} target={"_blank"}>
+            <button className='px-8 py-2 mt-4'>Code</button>
+          </Link>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>
