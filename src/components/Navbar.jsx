@@ -45,7 +45,7 @@ const Navbar = () => {
           <Link href={"/#home"}>
             <Image src="/../public/assets/John.png" alt="/" width="80" height="50" />
           </Link>
-          <DarkThemeButton />
+          {/* <DarkThemeButton /> */}
           <div>
             <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
               <Link href={"/#home"}>
