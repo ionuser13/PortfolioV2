@@ -20,20 +20,20 @@ const DeltaProject = () => {
           <p className='pb-2'>Project</p>
           <h2>Overview</h2>
           <p className='py-4'>This project is a landing page designed for a web development agency that offers multiple services such as web development, mobile app development, and content writing. The page was built with HTML, CSS and vanilla JavaScript, using an original design found on Dribbble. This project has a clear structure and easy navigation, which allows users to quickly access information about the services offered. Each section of the page includes specific details about the services, as well as examples of the agency&apos;s previous work.</p>
-          <Link href={"https://ionuser13.github.io/Delta-Project/"} target={"_blank"}>
+          <Link href={"https://ionuser13.github.io/Delta-Project/"} target={"_blank"} title={"See a live demo"}>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
-          <Link href={"https://github.com/ionuser13/Delta-Project"} target={"_blank"}>
+          <Link href={"https://github.com/ionuser13/Delta-Project"} target={"_blank"} title={"See code in GitHub"}>
             <button className='px-8 py-2 mt-4'>Code</button>
           </Link>
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
+        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-900 rounded-lg p-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> HTML5</p>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> CSS3</p>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> JavaScript</p>
+              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> HTML5</p>
+              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> CSS3</p>
+              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> JavaScript</p>
             </div>
           </div>
         </div>

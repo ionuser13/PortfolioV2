@@ -50,19 +50,19 @@ const Navbar = () => {
           <div>
             <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
               <Link href={"/#home"}>
-                <li className='text-body-text-color ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Home</li>
+                <li className='text-body-text-color ml-10 uppercase font-bold hover:text-hover-color ease-in duration-300'>Home</li>
               </Link>
               <Link href={"/#about"}>
-                <li className='text-body-text-color ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>About</li>
+                <li className='text-body-text-color ml-10 uppercase font-bold hover:text-hover-color ease-in duration-300'>About</li>
               </Link>
               <Link href={"/#skills"}>
-                <li className='text-body-text-color ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Skills</li>
+                <li className='text-body-text-color ml-10 uppercase font-bold hover:text-hover-color ease-in duration-300'>Skills</li>
               </Link>
               <Link href={"/#projects"}>
-                <li className='text-body-text-color ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Projects</li>
+                <li className='text-body-text-color ml-10 uppercase font-bold hover:text-hover-color ease-in duration-300'>Projects</li>
               </Link>
               <Link href={"/#contact"}>
-                <li className='text-body-text-color ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Contact</li>
+                <li className='text-body-text-color ml-10 uppercase font-bold hover:text-hover-color ease-in duration-300'>Contact</li>
               </Link>
             </ul>
             <div className='md:hidden cursor-pointer' onClick={handleNav}>
@@ -86,19 +86,19 @@ const Navbar = () => {
             <div className='py-4 flex flex-col'>
               <ul className='uppercase'>
                 <Link href={"/#home"}>
-                  <li onClick={() => {setNav(false)}} className='py-4 text-sm'>Home</li>
+                  <li onClick={() => {setNav(false)}} className='py-4'>Home</li>
                 </Link>
                 <Link href={"/#about"}>
-                  <li onClick={() => {setNav(false)}} className='py-4 text-sm'>About</li>
+                  <li onClick={() => {setNav(false)}} className='py-4'>About</li>
                 </Link>
                 <Link href={"/#skills"}>
-                  <li onClick={() => {setNav(false)}} className='py-4 text-sm'>Skills</li>
+                  <li onClick={() => {setNav(false)}} className='py-4'>Skills</li>
                 </Link>
                 <Link href={"/#projects"}>
-                  <li onClick={() => {setNav(false)}} className='py-4 text-sm'>Projects</li>
+                  <li onClick={() => {setNav(false)}} className='py-4'>Projects</li>
                 </Link>
                 <Link href={"/#contact"}>
-                  <li onClick={() => {setNav(false)}} className='py-4 text-sm'>Contact</li>
+                  <li onClick={() => {setNav(false)}} className='py-4'>Contact</li>
                 </Link>
               </ul>
               <div className='pt-40'>
