@@ -20,22 +20,22 @@ const Main = () => {
                 <p className='py-4 text-white max-w-[70%] m-auto'>I&apos;m a Front-End Developer specializing in building exceptional digital experiences. Currently, I&apos;m focused on building responsive front-end applications while honing my skills.</p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <Link href={"https://www.linkedin.com/in/john-f-chacpi-marchena-b9a48222b/"} target={"_blank"} >
-                        <div className='bg-background-color rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
+                        <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
                             <FaLinkedinIn />
                         </div>
                     </Link>
                     <Link href={"https://github.com/ionuser13"} target={"_blank"}>
-                        <div className='bg-background-color rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
+                        <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
                             <FaGithub />
                         </div>
                     </Link>
                     <Link href={"mailto:chacpijohn83@gmail.com"} target={"_blank"}>
-                        <div className='bg-background-color rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
+                        <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
                             <AiOutlineMail />
                         </div>
                     </Link>
                     <Link href={"/#contact"}>
-                        <div className='bg-background-color rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
+                        <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
                             <BsPersonLinesFill />
                         </div>
                     </Link>

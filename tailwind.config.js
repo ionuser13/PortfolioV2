@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         "background-color": "#1f2937", 
+        "section-background": "#323f4b",
         "body-text-color": "#ecf0f3",
         "remarking-color": "#5651e5",
         "light-gradient-color": "#709dff",

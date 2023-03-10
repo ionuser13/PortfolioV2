@@ -17,7 +17,7 @@ const Skills = () => {
     <div className='w-full lg:h-screen p-2' id='skills'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='uppercase text-xl tracking-widest text-remarking-color'>Skills</p>
-            <h2 className='py-4'>What can I do?</h2>
+            <h2 className='py-4'>What can I use?</h2>
             <div className='grid md:grid-cols-2 lg:grid-flow-cols-4 gap-8'>
 
                 <IndividualSkill source={htmlImage} skillName={"HTML5"}/>

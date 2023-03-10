@@ -21,7 +21,7 @@ const Navbar = () => {
       setLinkColor("#ecf0f3")
     }
     else {
-      setNavBg("#ecf0f3")
+      setNavBg("#323f4b")
       setLinkColor("#1f2937")
     }
   }, [router])
@@ -50,19 +50,19 @@ const Navbar = () => {
           <div>
             <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
               <Link href={"/#home"}>
-                <li className='ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Home</li>
+                <li className='text-body-text-color ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Home</li>
               </Link>
               <Link href={"/#about"}>
-                <li className='ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>About</li>
+                <li className='text-body-text-color ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>About</li>
               </Link>
               <Link href={"/#skills"}>
-                <li className='ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Skills</li>
+                <li className='text-body-text-color ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Skills</li>
               </Link>
               <Link href={"/#projects"}>
-                <li className='ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Projects</li>
+                <li className='text-body-text-color ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Projects</li>
               </Link>
               <Link href={"/#contact"}>
-                <li className='ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Contact</li>
+                <li className='text-body-text-color ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Contact</li>
               </Link>
             </ul>
             <div className='md:hidden cursor-pointer' onClick={handleNav}>
@@ -75,7 +75,7 @@ const Navbar = () => {
             <div>
               <div className='flex justify-between w-full items-center'>
                 <Image src="/../public/assets/John.png" alt="/" width={87} height={35} />
-                <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
+                <div onClick={handleNav} className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-3 cursor-pointer'>
                   <AiOutlineClose />
                 </div>
               </div>
