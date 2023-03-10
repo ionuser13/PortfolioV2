@@ -12,22 +12,22 @@ const Contact = () => {
             <h2 className='py-4'>How can you reach me</h2>
             <div className='flex items-center justify-evenly  m-auto py-4'>
                 <Link href={"https://www.linkedin.com/in/john-f-chacpi-marchena-b9a48222b/"} target={"_blank"} >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
                         <FaLinkedinIn />
                     </div>
                 </Link>
                 <Link href={"https://github.com/ionuser13"} target={"_blank"}>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
                         <FaGithub />
                     </div>
                 </Link>
                 <Link href={"mailto:chacpijohn83@gmail.com"} target={"_blank"}>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
                         <AiOutlineMail />
                     </div>
                 </Link>
                 <Link href={"https://github.com/ionuser13"} target={"_blank"}>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
                         <BsTwitter />
                     </div>
                 </Link>

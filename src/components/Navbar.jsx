@@ -50,19 +50,19 @@ const Navbar = () => {
           <div>
             <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
               <Link href={"/#home"}>
-                <li className='ml-10 text-sm uppercase hover:underline '>Home</li>
+                <li className='ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Home</li>
               </Link>
               <Link href={"/#about"}>
-                <li className='ml-10 text-sm uppercase hover:underline'>About</li>
+                <li className='ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>About</li>
               </Link>
               <Link href={"/#skills"}>
-                <li className='ml-10 text-sm uppercase hover:underline'>Skills</li>
+                <li className='ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Skills</li>
               </Link>
               <Link href={"/#projects"}>
-                <li className='ml-10 text-sm uppercase hover:underline'>Projects</li>
+                <li className='ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Projects</li>
               </Link>
               <Link href={"/#contact"}>
-                <li className='ml-10 text-sm uppercase hover:underline'>Contact</li>
+                <li className='ml-10 text-sm uppercase font-bold hover:text-hover-color ease-in duration-300'>Contact</li>
               </Link>
             </ul>
             <div className='md:hidden cursor-pointer' onClick={handleNav}>

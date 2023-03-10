@@ -7,10 +7,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "background-color": "#ecf0f3",
-        "body-text-color": "#1f2937",
+        "background-color": "#1f2937", 
+        "body-text-color": "#ecf0f3",
         "remarking-color": "#5651e5",
-        "light-gradient-color": "#709dff"
+        "light-gradient-color": "#709dff",
+        "hover-color": "#6f6deb", 
+        "footer-color": "#0d1217", 
       }
     },
   },
