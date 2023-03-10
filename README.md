@@ -1,38 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PortfolioV2
 
-## Getting Started
+Welcome to my updated portfolio! This repository contains the code and files for my personal portfolio website. The website is designed to showcase my projects, skills, and experiences.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+-   [Introduction](#introduction)
+-   [Features](#features)
+-   [Technologies Used](#technologies-used)
+-   [Usage](#usage)
+-   [Installation](#installation)
+-   [Contributing](#contributing)
+-   [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## <a name="introduction">Introduction</a> 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+This is my personal portfolio website where I showcase my projects, skills, and experiences to potential employers or clients. The website has a responsive design, making it easily accessible from both desktop and mobile devices. The website includes the following sections:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+-   Home: includes a brief introduction about who I am.
+-   About: provides information about my education, inspiration and interests. (skills, experiences,)
+-   Portfolio: showcases my projects along with brief descriptions and links to the source code and live demo.
+-   Skills: showcases the technical abilities and expertise on the technologies and tools I have used so far.
+-   Contact: includes links to my social media accounts.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## <a name="features">Features</a>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+-   Responsive design optimized for mobile and desktop devices.
+-   Home page with introduction and links to my social media accounts.
+-   Portfolio page displaying my projects with descriptions, technologies used, and links to the source code and live demo.
+-   Sections along the page with information about me, my projects and skills.
+-   Contact page with links to my email and social media accounts.
 
-## Learn More
+## <a name="technologies-used">Technologies Used</a>
 
-To learn more about Next.js, take a look at the following resources:
+-   Next.js
+-   CSS
+-   Tailwind
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## <a name="usage">Usage</a>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You can access my portfolio website at [https://portfolio-one-pi-60.vercel.app/](https://portfolio-one-pi-60.vercel.app/).
 
-## Deploy on Vercel
+## <a name="installation">Installation</a>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you would like to run the website locally, follow these instructions:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1.  Clone the repository: `git clone https://github.com/ionuser13/PortfolioV2.git`
+2.  Navigate into the directory: `cd PortfolioV2`
+3.  Install the dependencies: `npm install`
+4.  Start the development server: `npm run dev`
+5.  Open your web browser and navigate to `http://localhost:3000`
+
+## <a name="contributing">Contributing</a>
+
+Contributions are welcome! If you find a bug or have a suggestion for a new feature, please open an issue or submit a pull request.
+
+## <a name="license">License</a>
+
+This project is licensed under the MIT License.
