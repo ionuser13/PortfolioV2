@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/image';
-import Link from 'next/link';
 import deltaImg from "@public/assets/projects/deltaproject.png";
 import ecommerceImg from "@public/assets/projects/ecommerce.png";
 import galleryImg from "@public/assets/projects/songGallery.png"

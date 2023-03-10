@@ -5,6 +5,7 @@ import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from "react-icons/ai";
 import {FaLinkedinIn, FaGithub} from "react-icons/fa";
 import {BsPersonLinesFill} from "react-icons/bs";
 import { useRouter } from 'next/router';
+import personalLogo from "@public/assets/John.png"
 import DarkThemeButton from './DarkThemeButton';
 
 const Navbar = () => {
@@ -43,7 +44,7 @@ const Navbar = () => {
       <div style={{backgroundColor: `${navBg}`}} className={`fixed w-full h-20 shadow-xl z-[100]`}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
           <Link href={"/#home"}>
-            <Image src="/../public/assets/John.png" alt="/" width="80" height="50" />
+            <Image src={personalLogo} alt="/" width="80" height="50" />
           </Link>
           {/* <DarkThemeButton /> */}
           <div>
