@@ -1,7 +1,7 @@
 import React from 'react';
 import {FaLinkedinIn, FaGithub} from "react-icons/fa";
 import {AiOutlineMail} from "react-icons/ai";
-import {BsPersonLinesFill} from "react-icons/bs"
+import {BsPersonLinesFill, BsFileEarmarkFill} from "react-icons/bs"
 import Link from 'next/link';
 
 const Main = () => {
@@ -18,25 +18,20 @@ const Main = () => {
                     A Front-End Developer
                 </h1>
                 <p className='py-4 text-white max-w-[70%] m-auto'>I&apos;m a Front-End Developer specializing in building exceptional digital experiences. Currently, I&apos;m focused on building responsive front-end applications while honing my skills.</p>
-                <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                    <Link href={"https://www.linkedin.com/in/john-f-chacpi-marchena-b9a48222b/"} target={"_blank"} >
-                        <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
-                            <FaLinkedinIn />
-                        </div>
-                    </Link>
-                    <Link href={"https://github.com/ionuser13"} target={"_blank"}>
-                        <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
-                            <FaGithub />
-                        </div>
-                    </Link>
-                    <Link href={"mailto:chacpijohn83@gmail.com"} target={"_blank"}>
+                <div className='flex items-center justify-around max-w-[330px] m-auto py-4'>
+                    <Link href={"mailto:chacpijohn83@gmail.com"} target={"_blank"} title={"Contact me by mail"}>
                         <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
                             <AiOutlineMail />
                         </div>
                     </Link>
-                    <Link href={"/#contact"}>
+                    <Link href={"/#contact"} title={"Go to Contact section"}>
                         <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
                             <BsPersonLinesFill />
+                        </div>
+                    </Link>
+                    <Link href={"https://resume.io/r/O8DY4o3ro"} target={"_blank"} title={"Curriculum Vitae"}>
+                        <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
+                            <BsFileEarmarkFill />
                         </div>
                     </Link>
                 </div>
