@@ -50,19 +50,19 @@ const Navbar = () => {
           <div>
             <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
               <Link href={"/#home"}>
-                <li className='text-body-text-color ml-10 uppercase font-bold hover:text-hover-color ease-in duration-300'>Home</li>
+                <li className='text-body-text-color ml-10 uppercase font-bold hover:text-hover-color ease-in duration-100'>Home</li>
               </Link>
               <Link href={"/#about"}>
-                <li className='text-body-text-color ml-10 uppercase font-bold hover:text-hover-color ease-in duration-300'>About</li>
+                <li className='text-body-text-color ml-10 uppercase font-bold hover:text-hover-color ease-in duration-100'>About</li>
               </Link>
               <Link href={"/#skills"}>
-                <li className='text-body-text-color ml-10 uppercase font-bold hover:text-hover-color ease-in duration-300'>Skills</li>
+                <li className='text-body-text-color ml-10 uppercase font-bold hover:text-hover-color ease-in duration-100'>Skills</li>
               </Link>
               <Link href={"/#projects"}>
-                <li className='text-body-text-color ml-10 uppercase font-bold hover:text-hover-color ease-in duration-300'>Projects</li>
+                <li className='text-body-text-color ml-10 uppercase font-bold hover:text-hover-color ease-in duration-100'>Projects</li>
               </Link>
               <Link href={"/#contact"}>
-                <li className='text-body-text-color ml-10 uppercase font-bold hover:text-hover-color ease-in duration-300'>Contact</li>
+                <li className='text-body-text-color ml-10 uppercase font-bold hover:text-hover-color ease-in duration-100'>Contact</li>
               </Link>
             </ul>
             <div className='md:hidden cursor-pointer' onClick={handleNav}>
@@ -71,7 +71,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className={nav ? `md:hidden fixed left-0 top-0 w-full h-screen bg-black/70` : ""}>
-          <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-background-color p-10 ease-in duration-500' : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
+          <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-background-color p-10 ease-in duration-300' : 'fixed left-[-100%] top-0 p-10 ease-in duration-300'}>
             <div>
               <div className='flex justify-between w-full items-center'>
                 <Image src="/../public/assets/John.png" alt="/" width={87} height={35} />

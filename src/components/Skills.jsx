@@ -18,18 +18,18 @@ const Skills = () => {
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='uppercase text-xl tracking-widest text-remarking-color'>Skills</p>
             <h2 className='py-4'>What can I use?</h2>
-            <div className='grid md:grid-cols-2 lg:grid-flow-cols-4 gap-8'>
+            <div className='flex flex-wrap justify-center md:justify-start gap-8 xl:gap-x-32 md:gap-y-16'>
 
-                <IndividualSkill source={htmlImage} skillName={"HTML5"}/>
-                <IndividualSkill source={cssImage} skillName={"CSS3"}/>
-                <IndividualSkill source={bootstrapImage} skillName={"Bootstrap"}/>
-                <IndividualSkill source={tailwindImage} skillName={"Tailwind CSS"}/>
-                <IndividualSkill source={sassImage} skillName={"SASS"}/>
-                <IndividualSkill source={jsImage} skillName={"JavaScript"}/>
-                <IndividualSkill source={reactImage} skillName={"React JS"}/>
-                <IndividualSkill source={nextImage} skillName={"Next JS"}/>
-                <IndividualSkill source={gitImage} skillName={"Git"}/>
-                <IndividualSkill source={githubImage} skillName={"GitHub"}/>
+                <IndividualSkill source={htmlImage}/>
+                <IndividualSkill source={cssImage}/>
+                <IndividualSkill source={bootstrapImage}/>
+                <IndividualSkill source={tailwindImage}/>
+                <IndividualSkill source={sassImage}/>
+                <IndividualSkill source={jsImage}/>
+                <IndividualSkill source={reactImage}/>
+                <IndividualSkill source={nextImage}/>
+                <IndividualSkill source={gitImage}/>
+                <IndividualSkill source={githubImage}/>
 
             </div>
         </div>
