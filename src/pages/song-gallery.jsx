@@ -3,10 +3,20 @@ import Image from 'next/image';
 import songImg from "@public/assets/projects/songGallery.png";
 import {RiRadioButtonFill} from "react-icons/ri"
 import Link from 'next/link';
+import Head from 'next/head';
 
 const SongGallery = () => {
   return (
-    <div className='w-full'>
+    <>
+      <Head>
+        <title>Song Gallery</title>
+        <meta
+          name="description"
+          content="Personal project made by John Chacpi"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+      <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10'  />
         <Image className='absolute' fill={true} style={{objectFit: "cover"}} src={songImg} alt={"/"} />
@@ -43,6 +53,7 @@ const SongGallery = () => {
         </Link>
       </div>
     </div>
+    </>
   )
 }
 

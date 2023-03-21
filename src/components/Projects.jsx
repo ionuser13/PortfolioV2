@@ -1,5 +1,5 @@
 import React from 'react'
-import deltaImg from "@public/assets/projects/deltaproject.png";
+import stabucksImg from "@public/assets/projects/starbucksRewards.png";
 import ecommerceImg from "@public/assets/projects/ecommerce.png";
 import galleryImg from "@public/assets/projects/songGallery.png";
 import catImg from "@public/assets/projects/catgram.png"
@@ -14,7 +14,7 @@ const Projects = () => {
             <div className='grid md:grid-cols-2 gap-8'>
 
                 <ProjectItem title={"Yard Sale"} technology={"Next JS"} backgroundImg={ecommerceImg} projectUrl={"/yard-sale"} />
-                <ProjectItem title={"Delta Project"} technology={"HTML, CSS and JS"} backgroundImg={deltaImg} projectUrl={"/delta-project"} />
+                <ProjectItem title={"Starbucks Rewards"} technology={"React JS, Tailwind CSS"} backgroundImg={stabucksImg} projectUrl={"/starbucks-rewards"} />
                 <ProjectItem title={"Song Gallery"} technology={"HTML, CSS and JS"} backgroundImg={galleryImg} projectUrl={"/song-gallery"} />
                 <ProjectItem title={"Cattogram"} technology={"HTML, CSS and JS"} backgroundImg={catImg} projectUrl={"/cattogram"} />
 
