@@ -20,17 +20,17 @@ const Main = () => {
                 <p className='py-4 text-white max-w-[70%] m-auto'>I&apos;m a Front-End Developer specializing in building exceptional digital experiences. Currently, I&apos;m focused on building responsive front-end applications while honing my skills.</p>
                 <div className='flex items-center justify-around max-w-[330px] m-auto py-4'>
                     <Link href={"mailto:chacpijohn83@gmail.com"} target={"_blank"} title={"Contact me by mail"}>
-                        <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
+                        <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-100'>
                             <AiOutlineMail />
                         </div>
                     </Link>
                     <Link href={"/#contact"} title={"Go to Contact section"}>
-                        <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
+                        <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-100'>
                             <BsPersonLinesFill />
                         </div>
                     </Link>
                     <Link href={"https://drive.google.com/file/d/1NbV0RCuq8Bi9fcAphPING-tOwiKO6pDP/view"} target={"_blank"} title={"Curriculum Vitae"}>
-                        <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-300'>
+                        <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-100'>
                             <BsFileEarmarkFill />
                         </div>
                     </Link>

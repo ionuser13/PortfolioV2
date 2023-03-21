@@ -21,20 +21,20 @@ const YardSale = () => {
           <h2>Overview</h2>
           <p className='py-4'>This is an e-commerce platform built with Next.js, which is a framework built on top of React. The project was migrated from a previous version built with React, and now includes new functionality and optimization features.</p>
           <Link href={"https://next-shop-7l9y.vercel.app/main"} target={"_blank"}>
-            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+            <button className='px-8 py-2 mt-4 mr-8 hover:scale-105 duration-100'>Demo</button>
           </Link>
           <Link href={"https://github.com/ionuser13/next-shop"} target={"_blank"}>
-            <button className='px-8 py-2 mt-4'>Code</button>
+            <button className='px-8 py-2 mt-4 hover:scale-105 duration-100'>Code</button>
           </Link>
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
+        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-900 rounded-lg p-4 bg-section-background'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Next JS</p>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> CSS3</p>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> SASS</p>
-              <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Context API</p>
+              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Next JS</p>
+              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> CSS3</p>
+              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> SASS</p>
+              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Context API</p>
             </div>
           </div>
         </div>

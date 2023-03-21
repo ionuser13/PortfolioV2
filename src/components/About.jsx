@@ -14,8 +14,8 @@ const About = () => {
                   <Link href={"https://github.com/ionuser13?tab=repositories"} target={"_blank"}>Check out some of my latest projects.</Link>
                 </p>
             </div>
-            <div className='bg-body-text-color w-fit h-auto m-auto shadow-lg shadow-gray-900 rounded-xl flex justify-center items-center p-4  md:w-full overflow-hidden'>
-              <img src="https://avatars.githubusercontent.com/u/106779883?v=4" alt="/" className='rounded-xl hover:scale-105 ease-in duration-300' />
+            <div className='bg-section-background w-fit h-auto m-auto shadow-lg shadow-gray-900 rounded-xl flex justify-center items-center p-4 md:w-full overflow-hidden'>
+              <img src="https://avatars.githubusercontent.com/u/106779883?v=4" alt="/" className='rounded-xl hover:scale-105 ease-in duration-100' />
             </div>
         </div>
     </div>

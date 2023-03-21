@@ -21,13 +21,13 @@ const DeltaProject = () => {
           <h2>Overview</h2>
           <p className='py-4'>Cattogram is a web app that I developed for cat lovers to enjoy a curated feed of cat pictures. With Cattogram, users can save their favorite cat photos and upload their own cat pictures.As a developer, I wanted to create a project that not only showcased my technical skills but also brought joy to users. With Cattogram, I aimed to create a fun and enjoyable experience for cat lovers and provide a platform for them to share their love for felines.</p>
           <Link href={"https://github.com/ionuser13/Cat-"} target={"_blank"} title={"See a live demo"}>
-            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+            <button className='px-8 py-2 mt-4 mr-8 hover:scale-105 duration-100'>Demo</button>
           </Link>
           <Link href={"https://ionuser13.github.io/Cat-/"} target={"_blank"} title={"See code in GitHub"}>
-            <button className='px-8 py-2 mt-4'>Code</button>
+            <button className='px-8 py-2 mt-4 hover:scale-105 duration-100'>Code</button>
           </Link>
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-900 rounded-lg p-4'>
+        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-900 rounded-lg p-4 bg-section-background'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
