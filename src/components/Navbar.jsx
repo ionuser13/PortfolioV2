@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from "react-icons/ai";
@@ -59,7 +59,7 @@ const Navbar = () => {
           <div className={`fixed top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-background-color p-10 ease-in duration-300 ${nav ? 'left-0' : 'left-[-100%]' }`}>
             <div>
               <div className='flex justify-between w-full items-center'>
-                <Image src="/../public/assets/John.png" alt="/" width={87} height={35} />
+                <Image src={personalLogo} alt="/" width={87} height={35} />
                 <div onClick={handleNav} className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-3 cursor-pointer'>
                   <AiOutlineClose />
                 </div>
