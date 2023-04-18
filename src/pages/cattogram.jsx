@@ -63,10 +63,10 @@ const DeltaProject = () => {
               </button>
             </Link>
           </div>
-          <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-900 rounded-lg p-4 bg-section-background">
+          <div className="col-span-4 md:col-span-1 shadow-lg shadow-gray-900 rounded-lg p-4 bg-section-background">
             <div className="p-2">
               <p className="text-center font-bold pb-2">Technologies</p>
-              <div className="grid grid-cols-3 md:grid-cols-1">
+              <div className="grid grid-cols-2 md:grid-cols-1 gap-[4px]">
                 <p className="py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" /> HTML5
                 </p>

@@ -1,5 +1,3 @@
-import React from 'react';
-import {FaLinkedinIn, FaGithub} from "react-icons/fa";
 import {AiOutlineMail} from "react-icons/ai";
 import {BsPersonLinesFill, BsFileEarmarkFill} from "react-icons/bs"
 import Link from 'next/link';
@@ -17,7 +15,7 @@ const Main = () => {
                 <h1 className='py-4 text-white'>
                     A Front-End Developer
                 </h1>
-                <p className='py-4 text-white max-w-[70%] m-auto'>I&apos;m a Front-End Developer specializing in building exceptional digital experiences. Currently, I&apos;m focused on building responsive front-end applications while honing my skills.</p>
+                <p className='py-4 text-white max-w-[70%] m-auto'>Currently, I&apos;m focused on building responsive front-end applications while honing my skills.</p>
                 <div className='flex items-center justify-around max-w-[330px] m-auto py-4'>
                     <Link href={"mailto:chacpijohn83@gmail.com"} target={"_blank"} title={"Contact me by mail"}>
                         <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-100'>
@@ -29,7 +27,7 @@ const Main = () => {
                             <BsPersonLinesFill />
                         </div>
                     </Link>
-                    <Link href={"https://drive.google.com/file/d/1X_udl6M9MCYBeCd4WGHuo7Vuj_TFMbP0/view?usp=sharing"} target={"_blank"} title={"Curriculum Vitae"}>
+                    <Link href={"https://drive.google.com/file/d/1X_udl6M9MCYBeCd4WGHuo7Vuj_TFMbP0/view?usp=sharing"} target={"_blank"} title={"My Resume"}>
                         <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-100'>
                             <BsFileEarmarkFill />
                         </div>

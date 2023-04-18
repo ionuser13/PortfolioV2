@@ -8,12 +8,12 @@
     --remarking-color: #;
 }
 html {
-    scroll-behavior: smooth!important;
+    scroll-behavior: smooth;
 }
 
 @layer base {
     body {
-        @apply bg-[#1f2937] text-[#ecf0f3] tracking-wide
+        @apply bg-[#1A1A1D] text-[#ecf0f3] tracking-wide
     }
     h1, h2, h3, h4, h5, h5 {
         @apply font-bold

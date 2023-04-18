@@ -15,11 +15,11 @@ const Navbar = () => {
 
   useEffect(()=> {
     if(router.asPath === "/delta-project" || router.asPath === "/song-gallery" || router.asPath === "/yard-sale" || router.asPath === "/cattogram" ) {
-      setNavBg("transparent");
+      setNavBg("#0d1217");
       setLinkColor("#ecf0f3")
     }
     else {
-      setNavBg("#323f4b")
+      setNavBg("#0d1217")
       setLinkColor("#1f2937")
     }
   }, [router])
@@ -56,7 +56,8 @@ const Navbar = () => {
           </div>
         </div>
         <div className={nav ? `md:hidden fixed left-0 top-0 w-full h-screen bg-black/70` : ""}>
-          <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-background-color p-10 ease-in duration-300' : 'fixed left-[-100%] top-0 p-10 ease-in duration-300'}>
+          {/* fixed top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-background-color p-10 ease-in duration-300*/}
+          <div className={`fixed top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-background-color p-10 ease-in duration-300 ${nav ? 'left-0' : 'left-[-100%]' }`}>
             <div>
               <div className='flex justify-between w-full items-center'>
                 <Image src="/../public/assets/John.png" alt="/" width={87} height={35} />
