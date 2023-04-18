@@ -56,7 +56,6 @@ const Navbar = () => {
           </div>
         </div>
         <div className={nav ? `md:hidden fixed left-0 top-0 w-full h-screen bg-black/70` : ""}>
-          {/* fixed top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-background-color p-10 ease-in duration-300*/}
           <div className={`fixed top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-background-color p-10 ease-in duration-300 ${nav ? 'left-0' : 'left-[-100%]' }`}>
             <div>
               <div className='flex justify-between w-full items-center'>
