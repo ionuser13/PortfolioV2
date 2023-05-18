@@ -27,7 +27,7 @@ const Main = () => {
                             <BsPersonLinesFill />
                         </div>
                     </Link>
-                    <Link href={"https://drive.google.com/file/d/1X_udl6M9MCYBeCd4WGHuo7Vuj_TFMbP0/view?usp=sharing"} target={"_blank"} title={"My Resume"}>
+                    <Link href={"https://drive.google.com/file/d/1lQpVKY6LNcVpP_famIH3dt-vKf5NXFKy/view?usp=sharing"} target={"_blank"} title={"My Resume"}>
                         <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-100'>
                             <BsFileEarmarkFill />
                         </div>
