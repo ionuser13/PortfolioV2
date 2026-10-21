@@ -11,7 +11,7 @@ const Contact = () => {
             <p className='uppercase text-xl tracking-widest text-remarking-color'>Contact</p>
             <h2 className='py-4'>How can you reach me</h2>
             <div className='flex items-center justify-evenly  m-auto py-4'>
-                <Link href={"https://www.linkedin.com/in/john-f-chacpi-marchena-b9a48222b/"} target={"_blank"} title={"See my LinkedIn profile"}>
+                <Link href={"https://www.linkedin.com/in/john-chacpi/"} target={"_blank"} title={"See my LinkedIn profile"}>
                     <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-100'>
                         <FaLinkedinIn />
                     </div>
