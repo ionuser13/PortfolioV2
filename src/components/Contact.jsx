@@ -26,11 +26,6 @@ const Contact = () => {
                         <AiOutlineMail />
                     </div>
                 </Link>
-                <Link href={"https://twitter.com/ionuser03"} target={"_blank"} title={"Contact me via Twitter"}>
-                    <div className='bg-section-background rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 hover:bg-hover-color ease-in duration-100'>
-                        <BsTwitter />
-                    </div>
-                </Link>
             </div>
         </div>
     </div>
